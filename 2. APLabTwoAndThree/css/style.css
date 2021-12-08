@@ -1,0 +1,57 @@
+.lw { font-size: 60px; }
+
+body {
+  background: #beeef3;
+  margin: auto;
+}
+
+label {
+  color: #79746f;
+  font-size: 150%;
+}
+
+input {
+  background-color: #F0F8FF;
+}
+
+button {
+  background-color: #F0F8FF;
+  color: #79746f;
+  margin: 5;
+}
+
+table {
+   background-color: white;
+   border: none;
+   border-collapse: collapse;
+   border-radius: 5px;
+   font-size: 12px;
+   font-weight: normal;
+   max-width: 100%;
+   white-space: nowrap;
+   width: 100%;
+}
+
+td {
+   border-right: 1px solid #79746f;
+   font-size: 14px;
+   padding: 6px;
+   text-align: center;
+}
+
+tr {
+  border-bottom: 1px solid #79746f;
+  color: #79746f;
+  text-align: center;
+}
+
+th {
+   background: #4FC3A1;
+   color: #ffffff;
+   padding: 6px;
+   text-align: center;
+}
+
+caption {
+  font-size: 200%;;
+}

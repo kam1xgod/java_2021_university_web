@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>employeesTable</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="employersTable">
+  
+    <div>
+        <label for="number">Number</label>
+        <input type="text" id="numberInput" name="number" value="" required>
+        <button type=submitNumber id="numberSubmitButton">Submit</button>
+    </div>
+
+    <div>
+        <label for="name">Name</label>
+        <input type="text" id="nameInput" name="name" value="" required>
+        <button type=submitName id="nameSubmitButton">Submit</button>
+    </div>
+
+    <button type="getAllEmployees" id="getAllEmployees">Show all Employers</button>
+
+    <button type="addNewEmployee" id="addNewEmployee">
+        <a href="newEmployeeForm.html">Add new employee</a>
+    </button>
+
+    <table id="emloyersList">
+
+        <caption id="tableCaption">
+            <h3>Employees list</h3>
+        </caption>
+
+        <thead><tr id="firstRow">
+            <th></th>
+            <th>Number</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Date employed</th>
+            <th>Department</th>
+            <th>Delete</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr id="secondRow">
+            <th>
+                <div>
+                    <input type="checkbox" id="isRowSelected" name="checkbox" value="checkbox">
+                </div>
+            </th>
+            <td>
+                <a href="">+12584632144</a>
+            </td>
+            <td>Sindji</td>
+            <td>Pilot</td>
+            <td>12/23/2013</td>
+            <td>Ch41r</td>
+            <td>
+                <a href="" class="delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr id="thirdRow">
+            <th>
+                <div>
+                    <input type="checkbox" id="isRowSelected" name="checkbox" value="checkbox">
+                </div>
+            </th>
+            <td>
+                <a href="">+10020200202</a>
+            </td>
+            <td>Rei</td>
+            <td>Pilot</td>
+            <td>05/17/2011</td>
+            <td>NERV</td>
+            <td>
+                <a href="" class="delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr id="fourthRow">
+            <th>
+                <div>
+                    <input type="checkbox" id="isRowSelected" name="checkbox" value="checkbox">
+                </div>
+            </th>
+            <td>
+                <a href="">+10007993798</a>
+            </td>
+            <td>Kaneki</td>
+            <td>Chef</td>
+            <td>06/13/2014</td>
+            <td>Ant31ku</td>
+            <td>
+                <a href="" class="delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr id="fivethRow">
+            <th>
+                <div>
+                    <input type="checkbox" id="isRowSelected" name="checkbox" value="checkbox">
+                </div>
+            </th>
+            <td>
+                <a href="">+16006401337</a>
+            </td>
+            <td>Misato</td>
+            <td>Barmen</td>
+            <td>03/21/2015</td>
+            <td>Tok3</td>
+            <td>
+                <a href="" class="delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr id="sixthRow">
+            <th>
+                <div>
+                    <input type="checkbox" id="isRowSelected" name="checkbox" value="checkbox">
+                </div>
+            </th>
+            <td>
+                <a href="">+12568743645</a>
+            </td>
+            <td>Aska</td>
+            <td>Pilot</td>
+            <td>07/17/2016</td>
+            <td>NERV</td>
+            <td>
+                <a href="" class="delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr id="seventhRow">
+            <th>
+                <div>
+                    <input type="checkbox" id="isRowSelected" name="checkbox" value="checkbox">
+                </div>
+            </th>
+            <td>
+                <a href="">+12167698212</a>
+            </td>
+            <td>Auqa</td>
+            <td>Manager</td>
+            <td>03/18/2019</td>
+            <td>Kon05</td>
+            <td>
+                <a href="" class="delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr id="eighthRow">
+            <th>
+                <div>
+                    <input type="checkbox" id="isRowSelected" name="checkbox" value="checkbox">
+                </div>
+            </th>
+            <td>
+                <a href="">+15822228561</a>
+            </td>
+            <td>Gaara</td>
+            <td>Gardener</td>
+            <td>01/18/2014</td>
+            <td>54nd</td>
+            <td>
+                <a href="" class="delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr id="ninethRow">
+            <th>
+                <div>
+                    <input type="checkbox" id="isRowSelected" name="checkbox" value="checkbox">
+                </div>
+            </th>
+            <td>
+                <a href="">+14073437973</a>
+            </td>
+            <td>Ligma</td>
+            <td>Team Leader</td>
+            <td>02/28/2012</td>
+            <td>NERV</td>
+            <td>
+                <a href="" class="delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr id="tenthRow">
+            <th>
+                <div>
+                    <input type="checkbox" id="isRowSelected" name="checkbox" value="checkbox">
+                </div>
+            </th>
+            <td>
+                <a href="">+17127222744</a>
+            </td>
+            <td>Kirito</td>
+            <td>Tester</td>
+            <td>06/11/2013</td>
+            <td>Sa0</td>
+            <td>
+                <a href="" class="delete">Delete</a>
+            </td>
+        </tr>
+
+        <tr id="eleventhRow">
+            <th>
+                <div>
+                    <input type="checkbox" id="isRowSelected" name="checkbox" value="checkbox">
+                </div>
+            </th>
+            <td>
+                <a href="">+15823337762</a>
+            </td>
+            <td>Ichigo</td>
+            <td>Tester</td>
+            <td>06/23/2017</td>
+            <td>Bl34</td>
+            <td>
+                <a href="" class="delete">Delete</a>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
