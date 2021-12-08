@@ -15,8 +15,6 @@
   </p>
 </p>
 
-![Contributors](https://img.shields.io/github/contributors/kam1xgod/java_2021_university_web?color=dark-green) ![Issues](https://img.shields.io/github/issues/kam1xgod/java_2021_university_web) 
-
 ## Table Of Contents
 
 * [About the Project](#about-the-project)
