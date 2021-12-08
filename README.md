@@ -47,17 +47,3 @@ Tomcat работал из коробки, но на последних лабо
 IDEA: project was created for java enterprise, web-application, build system maven. may be it would be better for you to choose jakarta 9 instead of javaee 8. dependecies choosen while creation: EJB, JPA and Servlets (by default).
 Wildfly: I made a backup of original standalone.xml file and replaced it with standalone-full.xml. Just rename it after backup.
 Tomcat worked pretty well by default but doesn't startup on last labs.
-
-### Creating A Pull Request
-
-
-
-## Authors
-
-* **** - ** - []() - **
-
-## Acknowledgements
-
-* []()
-* []()
-* []()
