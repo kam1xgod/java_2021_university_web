@@ -1,0 +1,7 @@
+com\kami\study\aplabten\servlets\ListMessagesServlet.class
+com\kami\study\aplabten\beans\MessageEntityFacade.class
+com\kami\study\aplabten\servlets\PostMessageServlet.class
+com\kami\study\aplabten\beans\AbstractFacade.class
+entities\MessagesEntity.class
+com\kami\study\aplabten\beans\NewMessageBean.class
+com\kami\study\aplabten\beans\MessageSessionBean.class
