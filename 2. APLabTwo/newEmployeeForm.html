@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>add new employee</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="form-wrap">
+    <button>
+        <a href="index.html">Back to table</a>
+    </button>
+    <div class="profile"><img src="">
+        <h1>Registration</h1>
+    </div>
+    
+	<input type="name" id="nameInput" name="name" value="" required>
+	<button type="save" id="saveButton">Save</button>
+	
+	<script>
+	var link = window.location.href;
+	link = link.replace("file:///D:/repos/APSecondLab/newEmployeeForm.html?","");
+	link = link.replace("%20", " ");
+	link = link.replace("%20", " ");
+	document.getElementById("nameInput").value = link + "";
+	</script>
+</div>
+</body>
+</html>
