@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Garbage project.)</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+<div class="elements">
+    <div class="text">
+        <p><h2>Welcome to home page of this garbage!</h2>
+        <p><h3>Select one of the options listed down below:</h3>
+    </div>
+        <table>
+            <tr>
+                <td>
+                    <form method="get" action="listServlet">
+                        <button type="submit" class="button">View all</button>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form method="get" action="idServlet">
+                        <label>ID:
+                            <input type="text" name="id" class="emp_id"/>
+                        </label>
+                        <button type="submit" class="button">Search</button>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form method="get" action="nameServlet">
+                        <label>Name:
+                            <input type="text" name="name" class="emp_name"/>
+                        </label>
+                        <button type="submit" class="button">Search</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+entities\EmployeesEntity.class
+com\kami\study\aplabeight\beans\MyMainBean.class
+com\kami\study\aplabeight\beans\MySecondaryBean.class
+com\kami\study\aplabeight\servlets\CalcServlet.class
+com\kami\study\aplabeight\beans\CalcBean.class
+com\kami\study\aplabeight\servlets\IdServlet.class
+com\kami\study\aplabeight\servlets\ListServlet.class
+com\kami\study\aplabeight\servlets\NameServlet.class
+com\kami\study\aplabeight\entities\Employee.class
