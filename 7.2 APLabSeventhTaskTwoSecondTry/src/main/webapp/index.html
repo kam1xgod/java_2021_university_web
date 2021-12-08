@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Garbage project.)</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body class="w3-light-blue w3-display-middle">
+<h1>Welcome to home page of this garbage!</h1>
+<h2>Select one of the options listed down below:</h2>
+<div id="content">
+    <table class="w3-table w3-light-blue">
+            <tr>
+                <td>
+                    <form method="get" action="listServlet">
+                        <button type="submit">View all</button>
+                    </form>
+                </td>
+                <td>
+                    <form method="get" action="idServlet">
+                        <label>ID:
+                            <input type="text" name="id" class="emp_id"/>
+                        </label>
+                        <button type="submit">Search</button>
+                    </form>
+                </td>
+                <td>
+                    <form method="get" action="nameServlet">
+                        <label>Name:
+                            <input type="text" name="name" class="emp_name"/>
+                        </label>
+                        <button type="submit">Search</button>
+                    </form>
+                </td>
+            </tr>
+    </table>
+</div>
+</body>
+</html>
