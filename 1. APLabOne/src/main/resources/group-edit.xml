@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><group>
+    <student firstname="Quiet" groupnumber="1" lastname="Kid">
+        <subject mark="4" title="English"/>
+        <subject mark="4" title="Math"/>
+        <subject mark="4" title="Physics"/>
+        <subject mark="4" title="PE"/>
+        <subject mark="4" title="History"/>
+        <average>4.0</average>
+    </student>
+    <student firstname="Student" groupnumber="2" lastname="Cooler">
+        <subject mark="5" title="English"/>
+        <subject mark="5" title="Math"/>
+        <subject mark="5" title="Physics"/>
+        <subject mark="5" title="PE"/>
+        <subject mark="5" title="History"/>
+        <average>5.0</average>
+    </student>
+    <student firstname="Student" groupnumber="2" lastname="Nah">
+        <subject mark="3" title="English"/>
+        <subject mark="3" title="Math"/>
+        <subject mark="3" title="Physics"/>
+        <subject mark="3" title="PE"/>
+        <subject mark="3" title="History"/>
+        <average>3.0</average>
+    </student>
+    <student firstname="Student" groupnumber="1" lastname="Random">
+        <subject mark="5" title="English"/>
+        <subject mark="4" title="Math"/>
+        <subject mark="3" title="Physics"/>
+        <subject mark="5" title="PE"/>
+        <subject mark="5" title="History"/>
+        <average>4.4</average>
+    </student>
+    <student firstname="Say" groupnumber="2" lastname="Greetings">
+        <subject mark="2" title="English"/>
+        <subject mark="3" title="Math"/>
+        <subject mark="3" title="Physics"/>
+        <subject mark="2" title="PE"/>
+        <subject mark="3" title="History"/>
+        <average>2.6</average>
+    </student>
+
+</group>

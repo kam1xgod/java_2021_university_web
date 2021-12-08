@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE group [
+        <!ELEMENT group (student*)>
+        <!ELEMENT student (subject*,average?)>
+        <!ATTLIST student
+                firstname CDATA #REQUIRED
+                lastname CDATA #REQUIRED
+                groupnumber CDATA #REQUIRED
+                >
+        <!ELEMENT subject EMPTY>
+        <!ATTLIST subject
+                title CDATA #REQUIRED
+                mark (1|2|3|4|5) #REQUIRED
+                >
+        <!ELEMENT average (#PCDATA)>
+        ]>
+
+<group>
+    <student firstname="Quiet" lastname="Kid" groupnumber="1">
+        <subject title="English" mark="4"/>
+        <subject title="Math" mark="4"/>
+        <subject title="Physics" mark="4"/>
+        <subject title="PE" mark="4"/>
+        <subject title="History" mark="4"/>
+        <average>4.0</average>
+    </student>
+    <student firstname="Student" lastname="Cooler" groupnumber="2">
+        <subject title="English" mark="5"/>
+        <subject title="Math" mark="5"/>
+        <subject title="Physics" mark="5"/>
+        <subject title="PE" mark="5"/>
+        <subject title="History" mark="5"/>
+        <average>5.0</average>
+    </student>
+    <student firstname="Student" lastname="Nah" groupnumber="2">
+        <subject title="English" mark="3"/>
+        <subject title="Math" mark="3"/>
+        <subject title="Physics" mark="3"/>
+        <subject title="PE" mark="3"/>
+        <subject title="History" mark="3"/>
+        <average> </average>
+    </student>
+    <student firstname="Student" lastname="Random" groupnumber="1">
+        <subject title="English" mark="5"/>
+        <subject title="Math" mark="4"/>
+        <subject title="Physics" mark="3"/>
+        <subject title="PE" mark="5"/>
+        <subject title="History" mark="5"/>
+        <average>3</average>
+    </student>
+    <student firstname="Say" lastname="Greetings" groupnumber="2">
+        <subject title="English" mark="2"/>
+        <subject title="Math" mark="3"/>
+        <subject title="Physics" mark="3"/>
+        <subject title="PE" mark="2"/>
+        <subject title="History" mark="3"/>
+        <average>6</average>
+    </student>
+
+</group>
